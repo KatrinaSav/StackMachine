@@ -1,0 +1,22 @@
+# Функция, с которой начинается выполнение программы
+function main
+{
+push 4
+call func
+add
+peek var
+push var
+dup
+pop s3;
+sub
+push s3;
+callext print
+return
+}
+
+function func
+{
+push 8
+dup
+return
+}
